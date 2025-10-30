@@ -95,7 +95,7 @@ html, body {
 .card { position: relative; background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border: 1px solid rgba(148,163,184,.18); border-radius: 16px; padding: 1.1rem 1.1rem 1.2rem; box-shadow: 0 10px 30px rgba(0,0,0,.25); transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
 .card:hover { transform: translateY(-3px); border-color: rgba(56,189,248,.55); box-shadow: 0 14px 40px rgba(34,211,238,.2); }
 
-.icon { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; font-size: 1.2rem; background: radial-gradient(120% 120% at 20% 20%, var(--brand), var(--accent)); box-shadow: 0 6px 18px var(--ring); color: #00121a; }
+.icon { min-width: 40px; width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; font-size: 1.2rem; box-shadow: 0 0px 6px var(--ring); color: #00121a; }
 
 .card-head { display: flex; align-items: center; gap: .8rem; margin-bottom: .6rem; }
 .card h3 { margin: 0; font-size: 1.05rem; letter-spacing: .25px; }
@@ -107,3 +107,4 @@ html, body {
 .bar { height: 3px; width: 76px; background: linear-gradient(90deg, var(--brand), var(--accent)); border-radius: 999px; margin: .35rem 0 2rem; }
 
 .mt-xl { margin-top: 2rem; }
+
