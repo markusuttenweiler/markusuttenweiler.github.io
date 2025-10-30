@@ -15,14 +15,14 @@
       <a href="#contact" class="btn">Kontakt aufnehmen</a>
     </div>
   </header>
-  <main>
+  <main class="wrapper" aria-label="Leistungen">
     <section id="about">
       <h2>Über mich</h2>
       <p>
         Ich bin freiberuflicher Softwareentwickler mit über 20 Jahren Erfahrung in der Softwareentwicklung.
         Während meiner langjährigen Tätigkeit in verschiedenen Unternehmen konnte ich umfangreiche Kenntnisse in der Konzeption, Entwicklung und Weiterentwicklung komplexer Softwarelösungen sammeln.
         Heute bringe ich dieses Know-how als Freelancer ein, um Projekte effizient, strukturiert und mit einem hohen Qualitätsanspruch umzusetzen.
-        Ich lege großen Wert auf sauberen, wartbaren Code, eine klare Kommunikation und Lösungen, die sowohl technisch solide als auch wirtschaftlich sinnvoll sind.      <p>
+        Ich lege großen Wert auf sauberen, wartbaren Code, eine klare Kommunikation und Lösungen,<br>die sowohl technisch solide als auch wirtschaftlich sinnvoll sind.      <p>
     </section>
     <section id="tech">
       <h2>Technologiefokus</h2>
@@ -36,31 +36,102 @@
         <li><strong>Agile Methoden</strong> (Kanban)</li>
       </ul>      
     </section>
-    <section id="services">
+    <section id="tech">
       <h2>Leistungen</h2>
-      <ul>
-        <li><strong>UI-/UX-Entwicklung mit C# und WPF:</strong> Gestaltung und Umsetzung moderner Desktop-Anwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und Wartbarkeit.</li>
-        <li><strong>Scripting und Automatisierung (PowerShell, Bash, Python):</strong> Entwicklung von Skripten und Tools zur Prozessautomatisierung, Build-Steuerung und Systemintegration.</li>
-        <li><strong>Java-Entwicklung (Backend &amp; Services):</strong> Erstellung stabiler, wartbarer und skalierbarer Backend-Systeme mit modernen Java-Technologien und Frameworks.</li>
-        <li><strong>Web-Entwicklung (Frontend &amp; Backend):</strong> Entwicklung von Webanwendungen und Schnittstellen mit aktuellen Webtechnologien – vom API-Design bis zur Benutzeroberfläche.</li>
-        <li><strong>Inter-Prozesskommunikation &amp; Cross-Language-Integration:</strong> Kommunikation und Datenübertragung zwischen Prozessen und Anwendungen – auch über Sprach- und Technologiegrenzen hinweg (z.&nbsp;B. C#, Java, Python). Integration über REST, RPC via JSON, Named Pipes oder angepasste Protokolle.</li>
-        <li><strong>Softwarearchitektur &amp; Code-Modernisierung:</strong> Analyse und Neustrukturierung bestehender Anwendungen, Refactoring von Legacy-Code, Einführung moderner Patterns und Best Practices.</li>
-        <li><strong>Integration &amp; Schnittstellenentwicklung:</strong> Konzeption und Implementierung von REST-APIs sowie Daten- und Systemintegration zwischen Anwendungen und Plattformen.</li>
-        <li><strong>Build-, Deployment- &amp; CI/CD-Automatisierung:</strong> Einrichtung automatisierter Build-, Test- und Deployment-Prozesse zur Erhöhung der Softwarequalität und Effizienz.</li>
-        <li><strong>Interaktive Anwendungen, Spiele &amp; 3D-Grafik (Godot):</strong> Entwicklung leichter, interaktiver Anwendungen und Spiele mit der Godot Engine sowie 3D-Grafikprogrammierung inklusive mathematischer Grundlagen für Visualisierungen, Werbeanwendungen, Simulationen und Prototypen.</li>
-        <li><strong>Prototyping & Innovation:</strong> Offen für neue Technologien und Tools, mit Freude am Entwickeln von Prototypen und Proof-of-Concepts.</li>
-        <li><strong>Künstliche Intelligenz & Deep Learning:</strong> Interesse am Aufbau praktischer Kenntnisse mit PyTorch und neuronalen Netzen, um KI-Ansätze künftig in Softwarelösungen zu integrieren.</li>        
-      </ul>        
+      <p>
+        <section class="grid">
+          <article class="card" aria-label="UI-/UX-Entwicklung mit C# und WPF">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">💻</div>
+              <h3>UI-/UX-Entwicklung mit C# und WPF</h3>
+            </div>
+            <p>Gestaltung und Umsetzung moderner Desktop-Anwendungen mit Fokus auf Benutzerfreundlichkeit, Performance und Wartbarkeit.</p>
+          </article>
+          <article class="card" aria-label="Scripting und Automatisierung">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">⚙️</div>
+              <h3>Scripting und Automatisierung (PowerShell, Bash, Python)</h3>
+            </div>
+            <p>Entwicklung von Skripten und Tools zur Prozessautomatisierung, Build-Steuerung und Systemintegration.</p>
+          </article>
+          <article class="card" aria-label="Java-Entwicklung Backend & Services">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">☕</div>
+              <h3>Java-Entwicklung<br>(Backend &amp; Services)</h3>
+            </div>
+            <p>Erstellung stabiler, wartbarer und skalierbarer Backend-Systeme mit modernen Java-Technologien und Frameworks.</p>
+          </article>
+          <article class="card" aria-label="Web-Entwicklung Frontend & Backend">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🌐</div>
+              <h3>Web-Entwicklung<br>(Frontend &amp; Backend)</h3>
+            </div>
+            <p>Entwicklung von Webanwendungen und Schnittstellen mit aktuellen Webtechnologien – vom API-Design bis zur Benutzeroberfläche.</p>
+          </article>
+          <article class="card" aria-label="Inter-Prozesskommunikation & Cross-Language-Integration">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🔄</div>
+              <h3>Inter-Prozesskommunikation &amp; Cross-Language-Integration</h3>
+            </div>
+            <p>Kommunikation und Datenübertragung zwischen Prozessen und Anwendungen – auch über Sprach- und Technologiegrenzen hinweg.</p>
+          </article>
+          <article class="card" aria-label="Softwarearchitektur & Code-Modernisierung">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🧱</div>
+              <h3>Softwarearchitektur &amp; Code-Modernisierung</h3>
+            </div>
+            <p>Analyse und Neustrukturierung bestehender Anwendungen, Refactoring von Legacy-Code, Einführung moderner Patterns und Best Practices.</p>
+          </article>
+          <article class="card" aria-label="Integration & Schnittstellenentwicklung">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🔗</div>
+              <h3>Integration &amp; Schnittstellenentwicklung</h3>
+            </div>
+            <p>Konzeption und Implementierung von REST-APIs sowie Daten- und Systemintegration zwischen Anwendungen und Plattformen.</p>
+          </article>
+          <article class="card" aria-label="Build-, Deployment- & CI/CD-Automatisierung">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🚀</div>
+              <h3>Build-, Deployment- &amp; CI/CD-Automatisierung</h3>
+            </div>
+            <p>Einrichtung automatisierter Build-, Test- und Deployment-Prozesse zur Erhöhung der Softwarequalität und Effizienz.</p>
+          </article>
+          <article class="card" aria-label="Interaktive Anwendungen, Spiele & 3D-Grafik">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🎮</div>
+              <h3>Interaktive Anwendungen, Spiele &amp; 3D‑Grafik</h3>
+            </div>
+            <p>Entwicklung interaktiver Anwendungen und kleiner Spiele mit der Godot Engine sowie 3D-Grafikprogrammierung.</p>
+            <!-- <span class="badge" aria-label="Fokus auf Effizienz und Performance">Effizienz &amp; Performance</span> -->
+          </article>
+          <article class="card" aria-label="Künstliche Intelligenz & Deep Learning">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">🧠</div>
+              <h3>Künstliche Intelligenz &amp; Deep Learning</h3>
+            </div>
+            <p>Interesse am Aufbau praktischer Kenntnisse mit PyTorch und neuronalen Netzen, um KI-Ansätze künftig in Softwarelösungen zu integrieren.</p>
+          </article>                    
+          <article class="card" aria-label="Prototyping & Innovation">
+            <div class="card-head">
+              <div class="icon" aria-hidden="true">💡</div>
+              <h3>Prototyping &amp; Innovation</h3>
+            </div>
+            <p>Offen für neue Technologien und Tools, mit Freude am Entwickeln von Prototypen und Proof-of-Concepts.</p>
+          </article>          
+        </section>
     </section>
     <section id="contact">
       <h2>Kontakt</h2>
-      <p>📧 <a href="mailto:markus@uttenweiler-dev.de">markus@uttenweiler-dev.de</a></p>
-      <p>🌐 <a href="https://github.com/markusuttenweiler" target="_blank">GitHub-Profil ansehen</a></p>
-      <p>💼 <a href="https://www.linkedin.com/in/markusuttenweiler" target="_blank">LinkedIn-Profil</a></p>
+      <br>
+      📧 <a href="mailto:markus@uttenweiler-dev.de">markus@uttenweiler-dev.de</a><br>
+      🌐 <a href="https://github.com/markusuttenweiler" target="_blank">GitHub-Profil ansehen</a><br>
+      💼 <a href="https://www.linkedin.com/in/markusuttenweiler" target="_blank">LinkedIn-Profil</a><br>
     </section>
   </main>
   <footer>
     <p>© 2025 Markus Uttenweiler – Softwareentwicklung</p>
-  </footer>
+  </footer>    
+  </main>
 </body>
 </html>
+
