@@ -7,7 +7,7 @@
   --bg: hsl(var(--color-bg), 100%,8%);
   --gr1: hsl(var(--color2), 100%, 30%);
   --gr2: hsl(var(--color2), 100%, 20%);
-  --grst: hsl(var(--colorst), 50%, 18%);
+  --grst: hsl(var(--colorst), 60%, 18%);
   --grangle1: var(--grt) 170deg;
   --grangle2: var(--grt) 170deg;
   --grangle3: var(--grt) 170deg;
