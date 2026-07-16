@@ -41,8 +41,7 @@ header {
   background: var(--gradient);
   color: var(--ink);
   text-align: center;
-  /*padding: 4rem 2rem 6rem 2rem; */
-  padding: 3rem 2rem 4rem;
+  padding: 2rem 2rem;
   /*border-radius: 15px;*/
   border-radius: 18px 18px 0 0;
 }
@@ -321,6 +320,44 @@ ul {
 
 .mt-xl {
   margin-top: 2rem;
+}
+
+#misc h3 {
+  font-size: 1.1rem;
+  color: var(--ink);
+  border-bottom: 2px solid #4ca1af;
+  display: inline-block;
+  margin-bottom: 1.0rem;
+  padding-bottom: 0.3rem;
+}
+
+#misc-links {
+  font-size: 0.9rem;
+}
+
+.contact {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 0
+}
+
+.contact-mail {
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+  background: rgba(255,255,255,0.12);
+  color: #F5F7FA;
+  border: 1px solid rgba(148, 163, 184, .18);
+  transition: .2s;
+  display: inline-block;
+  font-size: 1.0rem;
+  border-radius: 999px;
+  margin-top: 1.0rem;
+  padding: .8rem 1.2rem;
+  font-weight: 600;
+  letter-spacing: .25px;
+}    
+
+#faq {
+    margin-top: 4rem;
 }
 
 #faq details {
