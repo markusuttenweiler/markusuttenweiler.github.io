@@ -13,7 +13,6 @@
   --card: #111827;
   --ink: #e5e7eb;
   --muted: rgb(178, 193, 214);
-  /*--muted: #94a3b8;*/
   --brand: #38bdf8;
   --accent: #22d3ee;
   --ring: rgba(56, 189, 248, .35);
@@ -49,7 +48,7 @@ body {
   padding: 0;
   background: var(--bg);
   color: var(--ink);
-  font-size: 90%;
+  font-size: 95%;
 }
 
 header {
@@ -179,6 +178,13 @@ ul {
   transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
 }
 
+#projects .card {
+    border-color: rgba(56,189,248,.25);
+    box-shadow:
+        0 10px 28px rgba(0,0,0,.18),
+        inset 0 1px 0 rgba(255,255,255,.12);
+}
+
 .card-head {
   display: flex;
   align-items: center;
@@ -188,29 +194,22 @@ ul {
 
 .card h3 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   letter-spacing: .25px;
-}
-
-#projects .card {
-    border-color: rgba(56,189,248,.25);
-    box-shadow:
-        0 10px 28px rgba(0,0,0,.18),
-        inset 0 1px 0 rgba(255,255,255,.12);
 }
 
 .card p {
   margin: .4rem 0 0;
   color: var(--muted);
   line-height: 1.5;
-  font-size: .98rem;
+  font-size: .88rem;
 }
 
 .card ul {
-  margin: .4rem 0 .9rem 0;
+  margin: .4rem 0 1.0rem 0;
   color: var(--muted);
   line-height: 1.5;
-  font-size: .98rem;
+  font-size: .88rem;
 }
 
 .btn {
