@@ -12,7 +12,8 @@
   --services: var(--gradient2);
   --card: #111827;
   --ink: #e5e7eb;
-  --muted: #94a3b8;
+  --muted: rgb(178, 193, 214);
+  /*--muted: #94a3b8;*/
   --brand: #38bdf8;
   --accent: #22d3ee;
   --ring: rgba(56, 189, 248, .35);
@@ -48,6 +49,7 @@ body {
   padding: 0;
   background: var(--bg);
   color: var(--ink);
+  font-size: 90%;
 }
 
 header {
@@ -119,6 +121,12 @@ ul {
   padding: 0rem 1.25rem;
 }
 
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 0 4.25rem;
+  }
+}
+
 .section-title {
   font-size: clamp(1.6rem, 2.5vw, 2.25rem);
   margin: 0 0 1rem;
@@ -184,8 +192,22 @@ ul {
   letter-spacing: .25px;
 }
 
+#projects .card {
+    border-color: rgba(56,189,248,.25);
+    box-shadow:
+        0 10px 28px rgba(0,0,0,.18),
+        inset 0 1px 0 rgba(255,255,255,.12);
+}
+
 .card p {
   margin: .4rem 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: .98rem;
+}
+
+.card ul {
+  margin: .4rem 0 .9rem 0;
   color: var(--muted);
   line-height: 1.5;
   font-size: .98rem;
@@ -213,16 +235,16 @@ ul {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
 }
 
-.badge {
-  display: inline-block;
-  margin-top: 0.7rem;
-  font-size: .75rem;
-  color: #061017;
-  background: rgba(56, 189, 248, .85);
-  border-radius: var(--border-radius-round);
-  padding: .25rem .6rem;
-  font-weight: 600;
-  letter-spacing: .25px;
+.tech-tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    margin: 0.15rem;
+    border: 1px solid rgba(56, 189, 248, .35);
+    color: #061017;
+    background: rgba(16, 149, 208, .85);
+    border-radius: var(--border-radius-round);
+    font-size: .70rem;
+    font-weight: 600;
 }
 
 .badge-banner {
